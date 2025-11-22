@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JCMOVIES - Home</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body data-page="home">
+        <header class="site-header">
+            <div class="logo">JCMOVIES</div>
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="bollywood.html">Bollywood</a>
+                <a href="trendingPage.html">Trending</a>
+            </nav>
+        </header>
+
+
+        <main>
+            <section class="search-area">
+                <label for="searchInput">Search</label>
+                <input id="searchInput" placeholder="movie's name..." />
+                <button id="searchBtn">SEARCH</button>
+            </section>
+            <hr />
+
+
+            <section class="movie-section">
+                <h2 id="sectionTitle">✨ Top HINDI Movies</h2>
+                <div id="movieContainer" class="movie-container"></div>
+            </section>
+        </main>
+
+
+    <!-- Modal for details -->
+        <div id="modal" class="modal" aria-hidden="true">
+            <div class="modal-content">
+                <button class="close-btn" id="closeModal">×</button>
+                <div id="modalBody"></div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
