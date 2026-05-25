@@ -1,6 +1,9 @@
 // ==============================
 // BASIC CONFIG
 // ==============================
+// NOTE: This is a free, public TMDB API key. 
+// Since this is a client-side vanilla JS application without a backend proxy, 
+// the key is intentionally exposed to allow frontend fetching.
 const API_KEY = "f2a1e9e0e765a2fbb5638bdea27aa516";
 const TMDB = "https://api.themoviedb.org/3";
 const IMG = "https://image.tmdb.org/t/p/w500";
